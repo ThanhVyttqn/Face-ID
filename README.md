@@ -270,35 +270,8 @@ http://localhost:5173
 
 ---
 
-## 9. Cài đặt AI-Face-ID
 
-Di chuyển vào thư mục AI:
-
-```bash
-cd AI-Face-ID
-```
-
-Tạo môi trường ảo:
-
-```bash
-python -m venv .venv
-```
-
-Kích hoạt môi trường ảo trên Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-Cài thư viện:
-
-```bash
-pip install opencv-python numpy insightface onnxruntime psycopg2-binary
-```
-
----
-
-## 10. Cách sử dụng AI nhận diện khuôn mặt
+## 9. Cách sử dụng AI nhận diện khuôn mặt
 
 ### Thu thập dữ liệu khuôn mặt
 
@@ -332,7 +305,7 @@ python recognize_and_log.py --camera-url http://192.168.1.10:4747/video --id-buo
 
 ---
 
-## 11. Luồng hoạt động chính
+## 10. Luồng hoạt động chính
 
 ### Luồng thiết lập ban đầu
 
@@ -373,7 +346,7 @@ Người dùng nhập yêu cầu
 
 ---
 
-## 12. Một số trạng thái sử dụng trong hệ thống
+## 11. Một số trạng thái sử dụng trong hệ thống
 
 ### Trạng thái buổi học
 
@@ -400,7 +373,7 @@ Người dùng nhập yêu cầu
 
 ---
 
-## 13. Lưu ý khi sử dụng
+## 12. Lưu ý khi sử dụng
 
 - Phải tạo database PostgreSQL trước khi chạy backend.
 - Phải cấu hình đúng file `.env`.
@@ -411,7 +384,7 @@ Người dùng nhập yêu cầu
 
 ---
 
-## 14. Lệnh chạy nhanh
+## 13. Lệnh chạy nhanh
 
 Chạy backend:
 
@@ -443,7 +416,7 @@ python recognize_and_log.py --camera-url http://192.168.1.10:4747/video --id-buo
 
 ---
 
-## 15. Hướng phát triển
+## 14. Hướng phát triển
 
 - Thêm giao diện dành cho sinh viên.
 - Gửi cảnh báo khi sinh viên vắng nhiều.
@@ -453,7 +426,7 @@ python recognize_and_log.py --camera-url http://192.168.1.10:4747/video --id-buo
 
 ---
 
-## 16. Tác giả
+## 15. Tác giả
 
 Đề tài: **Hệ thống điểm danh sinh viên bằng nhận diện khuôn mặt**
 
