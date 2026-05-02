@@ -1,0 +1,6 @@
+/backend/.env
+/backend/node_modules/
+
+
+/AI-Face-ID/dataset/
+/frontend/node_modules/
